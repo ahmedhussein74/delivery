@@ -1,0 +1,92 @@
+body{
+  height: fit-content;
+}
+header{
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #20c997;
+}
+article{
+  width: 50%;
+}
+article p{
+  text-align: justify;
+}
+article span{
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.news button{
+  width: 200px;
+  background-color: #20c997;
+}
+.news img{
+  width: 400px;
+}
+.onlineContainer{
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: center;
+  gap: 30px;
+}
+.online{
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+.online img{
+  width: 250px;
+  height: 250px;
+}
+.online h3{
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0 10px;
+}
+.online button{
+  width: 200px;
+  background-color: #20c997;
+}
+.miniIcons{
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: center;
+  gap: 30px;
+}
+.miniIcons i{
+  color: #20c997;
+}
+.miniIcons span{
+  font-size: 20px;
+  font-weight: bold;
+}
+button{
+  text-transform: uppercase;
+}
+a{
+  text-decoration: none;
+}
+.clients{
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: center;
+  gap: 0 30px;
+}
+.client{
+  text-align: center;
+}
+.client i{
+  color: #20c997;
+  font-size: 30px;
+}
+.client p{
+  text-align: center;
+}
+.client img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}

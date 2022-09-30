@@ -1,0 +1,28 @@
+@media screen and (max-width: 900px) and (min-width:500px) {
+  .news img {
+    width: 300px;
+  }
+  .onlineContainer {
+    grid-template-columns: repeat(3, 220px);
+    gap: 20px;
+  }
+  .online img {
+    width: 180px;
+    height: 150px;
+  }
+  .miniIcons {
+    grid-template-columns: repeat(3, 220px);
+    gap: 20px;
+  }
+  .clients {
+    display: grid;
+    grid-template-columns: repeat(3, 220px);
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .client i {
+    color: #20c997;
+    font-size: 30px;
+  }
+}

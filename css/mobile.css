@@ -1,0 +1,71 @@
+@media screen and (max-width: 425px) {
+  header {
+    height: 30px;
+    font-size: 10px;
+  }
+  article{
+    width: 100%;
+    padding: 10px;
+  }
+  article p {
+    width: 100%;
+    text-align: start;
+  }
+  article span {
+    font-size: 15px;
+  }
+  .news button {
+    width: 200px;
+    margin: auto;
+  }
+  .news img {
+    display: none;
+  }
+  .discover h1{
+    font-size: 20px;
+  }
+  .onlineContainer{
+    grid-template-columns: 280px;
+  }
+  .onlineContainer h3{
+    font-size: 15px;
+  }
+  .online {
+    width: 280px;
+    margin: auto;
+  }
+  .online img {
+    width: 150px;
+    height: 120px;
+  }
+  .online h3 {
+    font-weight: bold;
+  }
+  .online button {
+    width: 200px;
+  }
+  .icons h1{
+    font-size: 20px;
+  }
+  .miniIcons {
+    grid-template-columns: repeat(1, 280px);
+    gap: 20px;
+  }
+  .miniIcons span {
+    font-size: 20px;
+  }
+  .review h1{
+    font-size: 20px;
+  }
+  .clients {
+    grid-template-columns: repeat(1, 280px);
+    gap: 20px;
+  }
+  .client i {
+    font-size: 30px;
+  }
+  .client img {
+    width: 50px;
+    height: 50px;
+  }
+}
